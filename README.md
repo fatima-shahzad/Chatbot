@@ -36,17 +36,22 @@ A FastAPI-powered chatbot using Google's Gemini LLM, ChromaDB for semantic searc
 
 
 2. Create and Activate Virtual Environment
+   ```bash
    python -m venv venv
    source venv/bin/activate
 
 3. Install dependencies
+   ```bash
    pip install -r requirements.txt
    
 4. Set Environment Variables
   Create a .env file in the root directory and add your credentials:
+   ```bash
   GEMINI_API_KEY=your_google_gemini_api_key
   MONGO_URI=mongodb://localhost:27017
 
 5. Run the Application
+   ```bash
    uvicorn main:app --reload
-   The FastAPI server will start at http://127.0.0.1:8000
+   
+The FastAPI server will start at http://127.0.0.1:8000
