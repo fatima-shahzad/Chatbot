@@ -46,11 +46,10 @@ A FastAPI-powered chatbot using Google's Gemini LLM, ChromaDB for semantic searc
    
 4. Set Environment Variables
   Create a .env file in the root directory and add your credentials:
-   ```bash
-  GEMINI_API_KEY=your_google_gemini_api_key
+  GEMINI_API_KEY=your_google_gemini_api_key.
   MONGO_URI=mongodb://localhost:27017
-
-5. Run the Application
+  
+6. Run the Application
    ```bash
    uvicorn main:app --reload
    
